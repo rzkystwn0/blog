@@ -11,7 +11,7 @@ function Modal() {
     <>
       {modal && (
         <div className="fixed top-0 left-0 w-full flex h-screen justify-center items-center backdrop-blur-lg bg-black/40">
-          <div className="bg-white rounded-3xl w-3/12">
+          <div className="bg-white rounded-3xl w-11/12 md:w-3/12">
             <div>
               <img src="alert.png" alt="" className="rounded-t-3xl" />
             </div>
